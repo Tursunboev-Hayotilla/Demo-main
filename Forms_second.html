@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms elements</title>
+    </head>
+    <body>
+        <form action="/server.php" method="GET">
+            <label for="username">Username</label>
+            <input type="text" name="username" id = "username"> <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="datemax">Enter a date before 1980-01-01:</label>
+            <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+            <label for="datemin">Enter a date after 2000-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+            <label for="student">student</label>
+            <input type="checkbox" name = "student" id="student"> <br> <br>
+            <hr>
+
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Female"><br><br>
+            <label for="Passport">Passport</label>
+            <input type="file" name="Passport" id = "Passport"> <br><br>
+            <label for="favcolor">Select your favorite color</label>
+            <input type="color" name="favcolor" id="favcolor"><br><br>
+            <input type="image" src="kawasaki-ninja-h2-4k-qu-3840x2400.jpg" alt="submit"
+            width="48" height="48"><br><br>
+            <button type="submit" onclick="alert('Welcome')">Register</button>
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html> 
+
+<!--Form most elements
+    <input> :for taking data
+    <label> for giving info
+    <select>
+    <textarea>
+    <button> for send data to backend
+    <option>
+    
+    <input type="button">
+    <input type="checkbox">
+    <input type="color"> for input fields taht should contain a color
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset"> -> reset all form value to their default
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text">
+    <input type="time">
+    <input type="url">
+    <input type="week">
+    min/max to add restrictions to dates
+
+-->
